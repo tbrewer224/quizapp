@@ -1,0 +1,60 @@
+
+/*Common Styles*/
+
+body {
+  color: #222222;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+/*Content Styles*/
+
+.top {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  width: 400px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom:2rem;
+  background-color: #bfcbde;
+}
+
+.item {
+  margin-right: 0.5rem;
+  background-color: yellow;
+  padding: 5rem;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+#question {
+}
+
+#add-button:disabled {
+  background-color: #D3D3D3;
+}
+
+#add-todo {
+  background-color: gray;
+}
+
+
