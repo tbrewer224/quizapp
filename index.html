@@ -1,26 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="js/js.js"></script>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/js.js"></script>
 </head>
+
 <body>
-	<section class="top">
-	<h1>Music Quiz</h1>
-	</section>
-	<section class="list">
-		<div id="question"><h2>Who is the lead singer of the Fleet Foxes?</h2></div>
-		<form>
-  			<input type="radio" name="name" value="Robin Pecknold"> Robin Pecknold<br><br>
-  			<input type="radio" name="name" value="Ernest Greene"> Ernest Greene<br><br>
-  			<input type="radio" name="name" value="Thom Yorke"> Thom Yorke<br><br>
-  			<input type="radio" name="name" value="Edward Droste"> Edward Droste<br><br>
-  			<input type="submit" value="Submit" disabled="disabled">
-		</form>
-	</section>
+    <section class="top">
+        <h1 id="center">Fleet Foxes Quizlet</h1>
+    </section>
+    <div id="block">
+        <section class="start-section">
+            <div>
+                <h2 id="center">How much do you know about the Fleet Foxes?</h2>
+                <p id="center">Take this quiz to find out!</p>
+                <div id="center">
+                    <button class="start-button" id="startQuizButton">Start</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="quiz-section">
+            <div id="question">
+                <h2 id="center">Who is the lead singer of the Fleet Foxes?</h2>
+            </div>
+            <div id="answers">
+                <input type="radio" class="option" value="0">
+                <br>
+                <br>
+                <input type="radio" class="option" value="1">
+                <br>
+                <br>
+                <input type="radio" class="option" value="2">
+                <br>
+                <br>
+                <input type="radio" class="option" value="3">
+                <br>
+            </div>
+            <! why not a form? >
+        </section>
+
+        <section class="result-section">
+            <h3 id="center">You answered <span id="finalScore">4/4</span> questions correctly!</h3>
+            <p id="Q">Q: Who is the lead singer of the Fleet Foxes?</p>
+            <p>A: Robin Pecknold has been the lead singer of the Fleet Foxes since the band's formation in 2006.</p>
+            <p id="Q">Q: What is the name of the Fleet Foxes' second full-length album?</p>
+            <p>A: Their second full-length album is the Helplessness Blues.</p>
+            <p id="Q">Q: In what city did Fleet Foxes get their start?</p>
+            <p>A: Like many excellent bands, the Fleet Foxes began in Seattle.</p>
+            <p id="Q">Q: What is the last song on the Fleet Foxes' self-titled album?</p>
+            <p>A: The last song on their self-titled album is Oliver James.</p>
+            <div style="text-align: center">
+                <button id="tryagain">Try Again</button>
+            </div>
+        </section>
+    </div>
 </body>
+
 </html>
