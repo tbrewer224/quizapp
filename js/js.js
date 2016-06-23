@@ -30,8 +30,6 @@ var currentQuestion = 0;
 var totalCorrect = 0;
 var totalNumberOfQuestion = questionsArray.length;
 
-//function definitions
-
 //update question text
 function questionDisplay() {
 
@@ -52,7 +50,7 @@ $(document).ready(function () {
 
     //start quiz
     $('#startQuizButton').click(function () {
-        $('.result-section').hide(); //why?
+        $('.result-section').hide();
         $('.start-section').hide();
         $('.quiz-section').show();
         questionDisplay();
